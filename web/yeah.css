@@ -1,0 +1,130 @@
+
+header{
+	background-color : #000000;
+	border-color : #000000 ;
+}
+
+
+footer{
+	background-color : #000000;
+	position: fixed;
+    bottom: 0;
+	width:100%;
+}
+
+body{
+	background-image: url("picture/001.JPG");
+	background-size: cover;
+	animation-name:fadeInAnime;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+	opacity:0;
+	padding-bottom : 200px ;
+}
+
+h2{
+	color: white ;
+}
+
+.fadeIn{
+	animation-name:fadeInAnime;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+	opacity:0;
+}
+
+@keyframes fadeInAnime{
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeLeft{
+	animation-name:fadeLeftAnime;
+	animation-duration:0.5s;
+	animation-fill-mode:forwards;
+	opacity:0;
+}
+
+@keyframes fadeLeftAnime{
+  from {
+    opacity: 0;
+	transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+	transform: translateX(0);
+  }
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex>p{
+    width: 49%;
+}
+
+#main { 
+	float : left ;
+	width : 1000px ;	
+}
+
+.PR{
+	color : white ;
+	text-align : left ;
+	width :1000px ;
+	font-size : 15pt ;
+	padding : 5px ;
+	line-height : 80px;
+	font-weight : bold ;
+}
+
+.TATE{
+	writing-mode: vertical-rl;
+	font-family : serif ;
+	text-align: right ;
+	font-size: 30pt ;
+	position:fixed;
+	top: 80px ;
+    right:0px;
+	
+}
+
+.index{
+	font-size : 20pt;
+	line-height : 50pt ;
+	color : white ;
+}
+
+.mato{
+	color : #ffffff;
+	text-align : center ;
+}
+
+.wft {
+  color: white;
+  text-decoration: none;
+}
+
+#foot{
+	text-align : center;
+}
+
+.title{
+	text-align : center ;
+	width :500px ;
+	padding : 5px ;
+}
+
+.causion{
+	color : white ;
+	font-size : 5pt ;
+	text-decoration: none;
+}
+

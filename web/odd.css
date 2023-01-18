@@ -1,0 +1,57 @@
+body{
+	background-image: url("picture/rogo.PNG");
+	background-size: cover;
+	animation-name:fadeInAnime;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+	opacity:0;
+}
+
+.index{
+	color : black ;
+}
+
+.bft {
+  color: black;
+  text-decoration: none;
+}
+
+.PR{
+	color : black ;
+}
+
+.CP{
+	color : black ;
+	line-height : 40pt ;
+	font-family : serif ;
+	font-weight : bold ;
+}
+
+#main{
+	color : black ;
+}
+
+#pmain{
+	background-color:rgba(255,255,255,0.5);
+	color : black ;
+}
+
+.title{
+	text-align : center ;
+	color : black ;
+	font-size : 25pt ;
+	font-family : serif ;
+}
+.photoH{
+	display : flex ;
+	margin :10px 10px 50px 10px ;
+	padding : 20px ;
+}
+
+.TC{
+	text-align : left ;
+	width :350px ;
+	font-size : 15pt ;
+	padding : 5px ;
+	line-height : 40px
+}
